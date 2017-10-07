@@ -1,0 +1,10 @@
+* .tmux.conf
+By default =tmux= looks for user configuration file at  =~/.tmux.conf=.
+You can use =tmux -f file= to specify an alternative configuration file when starting =tmux= session.
+#+BEGIN_SRC bash
+$ tmux -f ~/.tmux/.tmux.conf
+#+END_SRC
+Or you can make an alias:
+#+BEGIN_SRC bash
+alias tmux="tmux -f ~/.tmux/.tmux.conf"
+#+END_SRC
